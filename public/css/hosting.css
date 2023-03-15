@@ -1,5 +1,7 @@
 .hosting-5 {
-  padding: 3.125rem 0;
+  padding-right: 10.625rem;
+  padding-bottom: 6.25rem;
+  position: relative;
 }
 .hosting-5:before {
   position: absolute;
