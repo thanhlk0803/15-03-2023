@@ -21,18 +21,18 @@
 .mouse-cursor { position: fixed; left: 0; top: 0; pointer-events: none; -webkit-transform: translateZ(0); transform: translateZ(0); visibility: hidden; }
 .cursor-inner {margin-left: 2px; margin-top: 2px; width: 6px; height: 6px; z-index: 10000001;  }
 
-.cursor-inner:before{content: ''; position: absolute; left: 50%; top: 50%; border-radius: 2px; transform: translate(-50%,-50%) rotate(45deg); width: 6px;height: 6px; background-color: #34d5d1;-webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;-o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;}
+.cursor-inner:before{content: ''; position: absolute; left: 50%; top: 50%; border-radius: 2px; transform: translate(-50%,-50%) rotate(45deg); width: 6px;height: 6px; background-color: #f7971e;-webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;-o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;}
 
 .cursor-inner.cursor-hover {margin-left: -40px;margin-top: -40px;width: 80px;height: 80px; }
-.cursor-inner.cursor-hover:before { width: 80px; height: 80px; border-radius: 16px; background-color: #34d5d1; opacity: .3; }
+.cursor-inner.cursor-hover:before { width: 80px; height: 80px; border-radius: 16px; background-color: #f7971e; opacity: .3; }
 
 
 
 .cursor-outer {margin-left: -15px; margin-top: -15px; width: 40px; height: 40px; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: 10000000; opacity: .5;-webkit-transition: all .08s ease-out;-o-transition: all .08s ease-out;transition: all .08s ease-out; }
-.cursor-outer:before{ content: ''; transform: rotate(45deg); position: absolute; border-radius: 12px; width: 40px;height: 40px;border: 1px solid #34d5d1;-webkit-box-sizing: border-box;box-sizing: border-box; }
+.cursor-outer:before{ content: ''; transform: rotate(45deg); position: absolute; border-radius: 12px; width: 40px;height: 40px;border: 1px solid #f7971e;-webkit-box-sizing: border-box;box-sizing: border-box; }
 .cursor-outer.cursor-hover {  opacity: 0; }
 
-.accordion__body__content a{ color:#34d5d1; }
+.accordion__body__content a{ color:#f7971e; }
 
 .hide-scroll{ z-index: -1; opacity:0; }
 .d-flex { display: -webkit-box; display: -ms-flexbox; display: flex;}
@@ -85,12 +85,12 @@ email::after { content: attr(data-domain);}
 .hbtn:hover,
 .contact-group-1 input[type="submit"],
 .submit { -webkit-animation: gradient 2s ease alternate infinite !important; animation: gradient 2s ease alternate infinite !important;}
-.hbtn::before{ content:''; position:absolute; width: 100%; height:100%; left: 0; top: 0; background: linear-gradient(270deg, #70efd1 0%, #1bc1c1 100%) !important; transition: all 0.5s; }
+.hbtn::before{ content:''; position:absolute; width: 100%; height:100%; left: 0; top: 0; background: linear-gradient(270deg, #f7971e 0%, #f7971e 100%) !important; transition: all 0.5s; }
 .hbtn:hover::before{ content:''; position:absolute; width: 250%; height:100%; transition: all 0.5s; }
 .hbtn span{z-index: 1; position: relative;}
 .hbtn--white::before{display: none;}
 
-.hbtn--white { background: #fff !important; color: var(--miko-color) !important;}
+.hbtn--white { background: #f7971e !important; color: var(--miko-color) !important;}
 
 .hbtn:hover { box-shadow: 0 4px 24px 0 rgb(27 193 193 / 30%); transition: all 0.3s; }
 .hbtn--white:hover { box-shadow: 0 4px 24px 0 rgb(255 255 255 / 50%); transition: all 0.3s; }
@@ -142,8 +142,8 @@ input, select, button { -webkit-appearance: none;}
 .loading-icon:after { content: ""; position: absolute; width: 100vw; height: 100vh; left: 0; bottom: 0; z-index: var(--zindex-tooltip); margin: 0 0 0; background: -moz-radial-gradient(
     50% 50%,
     ellipse contain,
-    #1bc1c1 0,
-    #70efd1 100%
+    #f7971e 0,
+     #f7971e 100%
   ); background: -webkit-radial-gradient(
     50% 50%,
     ellipse contain,
@@ -251,7 +251,7 @@ a.single-language span.size24 { width: 40px !important; height: 26px !important;
 .footer__form textarea::-ms-input-placeholder { font-size: 0.875rem; color: #000;}
 .footer__form textarea::placeholder { font-size: 0.875rem; color: #000;}
 .footer__form button { display: block; width: 90px; height: 30px; font-size: 0.875rem; font-weight: bold; text-align: center; color: #fff; border-radius: 15px; margin: 1.125rem auto 0; background: var(--miko-gradient); border: 0; cursor: pointer;}
-.footer__social { width: 42px; height: 42px; background: #34d5d1; color: #fff; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 0.625rem;}
+.footer__social { width: 42px; height: 42px; background: #f7971e; color: #fff; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 0.625rem;}
 .footer__social svg { max-width: 100%;}
 .footer__col--2 { grid-column: 1 / 3 !important;}
 .footer__col--form { grid-column: 3; grid-row: 1 / 3;}
@@ -596,7 +596,7 @@ margin-top: 1rem; }
 .scroll-top { position: fixed; right: 57px; bottom: -15px; z-index: var(--zindex-fixed); background: transparent; border: 0; cursor: pointer;}
 #getpassCode { -webkit-touch-callout: all; -webkit-user-select: all; -khtml-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all;}
 .online-support { position: fixed; right: 50px; bottom: 165px; z-index: var(--zindex-fixed);}
-.online-support-items { width: 48px; height: 48px; background: #34d5d1; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-top: 14px; cursor: pointer;}
+.online-support-items { width: 48px; height: 48px; background: #f7971e; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-top: 14px; cursor: pointer;}
 
 .hmmenu__button { display: none; background: transparent; position: fixed; right: 16px; top: 22px; width: 30px; height: 23px; padding: 0; border: 0; z-index: var(--zindex-modal); transition: all 0.3s;}
 .hmmenu__button.hmmenu-open-click { z-index: var(--zindex-tooltip);}

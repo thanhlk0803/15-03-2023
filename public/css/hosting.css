@@ -10,7 +10,7 @@
   content: "";
   width: calc(100% - 10.625rem);
   height: 1px;
-  background: #8b8b8b;
+  background:#f7971e;
   opacity: 0.3;
 }
 .hosting-5:after {
@@ -38,7 +38,7 @@
   content: "";
   width: 9px;
   height: 9px;
-  background: #34d5d1;
+  background: #f7971e;
   border-radius: 50%;
   left: 0;
   bottom: -4px;
@@ -46,12 +46,12 @@
 .hosting-5-items__name {
   font-weight: 700;
   font-size: 1.125rem;
-  color: #1fc1c1;
+  color: #f7971e;
   margin: 1.5rem 0;
 }
 .hosting-5-items__desc {
   font-size: 0.875rem;
-  color: #5f5f5f;
+  color:#f7971e;
 }
 
 .hosting-7 {
@@ -70,7 +70,7 @@
 .hosting-7-items {
   width: 300px;
   padding: 0 4.875rem 3.438rem 4.875rem;
-  border-right: 1px solid rgba(112, 112, 112, 0.3);
+  border-right: 1px solid #f7971e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,11 +92,11 @@
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 3.188rem;
-  color: #1fc1c1;
+  color: #f7971e;
 }
 .hosting-7-items__desc {
   font-size: 0.875rem;
-  color: #5f5f5f;
+  color: #f7971e;
   text-align: center;
 }
 
@@ -124,7 +124,7 @@
   content: "";
   width: 33%;
   height: 100%;
-  background: #faf5f0;
+  background: #f7971e;
   border-radius: 1rem 0 0 1rem;
   position: absolute;
   right: 0;
@@ -160,7 +160,7 @@
 .hosting-8-items__image {
   width: 60px;
   height: 60px;
-  background: #fff;
+  background: #f7971e;
   -webkit-box-shadow: 0 30 60 rgba(0, 0, 0, 0.1);
   box-shadow: 0 30 60 rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -181,7 +181,7 @@
 }
 
 .hosting-9 {
-  background: #f7f2ed;
+  background:  #f7971e;
   padding: 3.125rem;
 }
 .hosting-9__title {
@@ -194,7 +194,7 @@
   padding: 1.5rem 0.625rem;
 }
 .hosting-9-items {
-  background: #fff;
+  background:  #f7971e;
   border-radius: 1rem;
   padding: 1.25rem 2rem;
   -webkit-transition: all 0.3s;
@@ -264,7 +264,7 @@
   transition: all 0.3s;
 }
 .hosting-9 .swiper-slide-active .hosting-9-items {
-  background: #2bcac4;
+  background:  #f7971e;
   -webkit-transform: translateY(-0.875rem);
   transform: translateY(-0.875rem);
 }
@@ -273,7 +273,7 @@
 }
 .hosting-9 .swiper-slide-active .hosting-9-items .hosting-9-items__name,
 .hosting-9 .swiper-slide-active .hosting-9-items .hosting-9-items__desc {
-  color: #fff;
+  color: #f7971e;
 }
 .hosting-9 .swiper-slide-active .hosting-9-items .hosting-9-items__date {
   color: rgba(255, 255, 255, 0.5);
