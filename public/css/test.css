@@ -1,0 +1,56 @@
+
+.hosting-5 {
+  padding-right: 10.625rem;
+  padding-bottom: 6.25rem;
+  position: relative;
+}
+.hosting-5:before {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  content: "";
+  width: calc(100% - 10.625rem);
+  height: 1px;
+  background: #8b8b8b;
+  opacity: 0.3;
+}
+.hosting-5:after {
+  position: absolute;
+  left: calc(100% - 10.625rem - 13px);
+  top: 70px;
+  content: "";
+  width: 13px;
+  height: 21px;
+  background: url("../images/hosting/Path 278.png");
+}
+.hosting-5__swiper {
+  padding-left: 3.75rem;
+}
+.hosting-5-items {
+  padding-left: 0.625rem;
+}
+.hosting-5-items__image {
+  font-family: "Montserrat";
+  height: 80px;
+  position: relative;
+}
+.hosting-5-items__image:after {
+  position: absolute;
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #34d5d1;
+  border-radius: 50%;
+  left: 0;
+  bottom: -4px;
+}
+.hosting-5-items__name {
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #1fc1c1;
+  margin: 1.5rem 0;
+}
+.hosting-5-items__desc {
+  font-size: 0.875rem;
+  color: #5f5f5f;
+}
